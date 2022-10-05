@@ -3,8 +3,9 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-android-extensions'
     id 'kotlin-kapt'
-    id 'com.github.dcendents.android-maven'
+
 }
+apply plugin: 'com.github.dcendents.android-maven'
 // Your Group
 group='com.github.a2213502'
 
